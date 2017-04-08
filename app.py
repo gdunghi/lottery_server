@@ -56,7 +56,7 @@ def create_task():
             "two_1":"%s"%perdictLotto(iD,iM,iY,day,last_2digit_top),
             "two_2":"%s"%perdictLotto(iD,iM,iY,day,last_2digit_down)
         }
-    return jsonify(message_parts), 201
+    return jsonify(message_parts), 200
 
 def perdictLotto(d,m,y,data1,data2):
 	classifier = tree.DecisionTreeClassifier()
