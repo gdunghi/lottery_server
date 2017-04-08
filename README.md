@@ -10,3 +10,6 @@ sudo pip install virtualenv
 json example {"day":1,"month":2,"year":2560}
 
 
+##debit https://github.com/sunsunza2009/Machine-Learning-for-thai-Lottery
+
+
